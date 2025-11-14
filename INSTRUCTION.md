@@ -7,6 +7,10 @@ Than run service:
 
 kubectl apply -f .infrastructure/clusterip.yml
 
+Than run busybox:
+
+kubectl apply -f .infrastructure/busybox.yml
+
 After that connect to busybox container:
 
 kubectl -n todoapp exec -it busybox -- sh

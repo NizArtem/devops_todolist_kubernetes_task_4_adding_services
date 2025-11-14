@@ -5,6 +5,9 @@ metadata:
   namespace: todoapp
   labels:
     app: todolist
+  env:
+    - name: PORT
+      value: "8080"
 spec:
   containers:
   - name: todoapp
